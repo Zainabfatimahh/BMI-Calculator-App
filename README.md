@@ -1,50 +1,124 @@
-# Welcome to your Expo app 👋
+📱 BMI Calculator App — React Native (Expo)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A clean and functional BMI Calculator mobile app built using React Native and Expo, focused on smooth user flow, clean UI, and stable Android builds.
 
-## Get started
+This is a personal project created to strengthen my skills in mobile app development, Expo Router navigation, and APK generation using EAS Build.
 
-1. Install dependencies
 
-   ```bash
-   npm install
-   ```
 
-2. Start the app
+✨ Project Highlights
 
-   ```bash
-   npx expo start
-   ```
+📌 Complete mobile app (UI → logic → APK)
 
-In the output, you'll find options to open the app in a
+🧭 File-based navigation using Expo Router
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+📐 Real-time BMI calculation
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+🎨 Custom splash screen & app icon
 
-## Get a fresh project
+📦 Android APK generated using Expo EAS Build
 
-When you're ready, run:
+🛠 Debugged real-world runtime and configuration issues
 
-```bash
-npm run reset-project
-```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+🚀 Features
 
-To learn more about developing your project with Expo, look at the following resources:
+Gender selection screen
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Height input using slider
 
-## Join the community
+Weight input with increment/decrement buttons
 
-Join our community of developers creating universal apps.
+BMI calculation using standard formula
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Result screen with recalculation option
+
+Smooth navigation flow
+
+Android APK support
+
+
+🛠 Tech Stack
+
+React Native
+
+Expo
+
+Expo Router
+
+JavaScript (ES6+)
+
+EAS Build
+
+@react-native-community/slider
+
+
+
+📂 Project Structure
+
+bmi-calculator/
+├── app/
+│   ├── _layout.js
+│   ├── index.js
+│   ├── gender.js
+│   ├── input.js
+│   └── result.js
+│
+├── constants/
+│   └── theme.js
+│
+├── assets/
+│   └── images/
+│
+├── app.json
+├── eas.json
+└── package.json
+
+
+
+📐 BMI Formula Used
+
+BMI = weight (kg) / (height (m) × height (m))
+
+
+▶️ Run the Project Locally
+
+git clone https://github.com/your-username/bmi-calculator.git
+cd bmi-calculator
+npm install
+npx expo start
+
+Scan the QR code using the Expo Go app (Android).
+
+
+📦 APK Build
+
+The Android APK was generated using Expo EAS Build:
+
+eas build -p android --profile preview
+
+
+🧠 Learning Outcomes
+
+Built a complete React Native app using Expo
+
+Implemented file-based navigation with Expo Router
+
+Worked with native components like sliders
+
+Managed app configuration, splash screen, and icons
+
+Debugged production-level crashes and warnings
+
+Generated and tested a real Android APK
+
+
+👩‍💻 Author
+
+Zainab Fatimah
+Frontend & React Native Developer
+Personal Project
+
+
+
