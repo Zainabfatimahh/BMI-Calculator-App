@@ -82,16 +82,6 @@ bmi-calculator/
 BMI = weight (kg) / (height (m) × height (m))
 
 
-▶️ Run the Project Locally
-
-git clone https://github.com/your-username/bmi-calculator.git
-cd bmi-calculator
-npm install
-npx expo start
-
-Scan the QR code using the Expo Go app (Android).
-
-
 📦 APK Build
 
 The Android APK was generated using Expo EAS Build:
