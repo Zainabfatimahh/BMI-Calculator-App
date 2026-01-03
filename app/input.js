@@ -51,7 +51,11 @@ export default function Input() {
 
       {/* HEIGHT */}
       <Text style={styles.title}>How tall are you?</Text>
-      <Text style={styles.value}>{height} cm</Text>
+     <Text style={styles.value}>
+  {unit === "cm"
+    ? `${height} cm`
+    : `${(height / 30.48).toFixed(1)} ft`}
+</Text>
 
       <Slider
         minimumValue={140}
