@@ -7,7 +7,7 @@ import { COLORS } from "../constants/theme.js";
 
 
 export default function Input() {
-  const [height, setHeight] = useState(160);
+  const [height, setHeight] = useState(170);
   const [weight, setWeight] = useState(65);
   const [age, setAge] = useState(25);
   const [unit, setUnit] = useState("cm"); 
