@@ -39,7 +39,7 @@ Smooth navigation flow
 Android APK support
 
 
-🛠 Tech Stack
+🛠 Tech Stack Used:
 
 React Native
 
